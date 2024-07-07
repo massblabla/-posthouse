@@ -1,26 +1,27 @@
-function fetchPostData(post) {
-    /* Put the URI to the "posts" folder. or something like below */
-    const url = "https://raw.githubusercontent.com/massblabla/posthouse/main/posts/";
-    const postData = JSON.parse(fetch(url + "data/" + post + ".json"));
-    return postData;
-}
-function fetchPostContent(post) {
-    /* Put the URI to the "posts" folder. or something like below */
-    const url = "https://raw.githubusercontent.com/massblabla/posthouse/main/posts/";
-    const postContent = fetch(url + "content/" + post + ".txt");
-    return postContent;
-}
-function post(post) {
-    const content = fetchPostContent(post);
-    const data = fetchPostData(post);
-}
 function getQuery() {
     const urlParams = new URLSearchParams(window.location.search);
     const issue = urlParams.get('i');
-    return post(issue);
+    return issue;
+}
+function fetchPostData() {
+    /* Put the URI to the "posts" folder. or something like below */
+    const url = "https://raw.githubusercontent.com/massblabla/posthouse/main/posts/";
+    const postData = fetch(url + "data/" + getQuery() + ".json").then(response => response.text());
+    return postData;
+}
+function fetchPostContent() {
+    /* Do it like the comment above */
+    const url = "https://raw.githubusercontent.com/massblabla/posthouse/main/posts/";
+    const postContent = fetch(url + "content/" + getQuery() + ".txt").then(response => response.text());
+    return postContent;
 }
 function loadPage() {
-    const page = getQuery().data;
-    console.log(page);
+    const jsonPostData = JSON.parse(fetchPostData());
+    const title = jsonPostData.title;
+    const author = jsonPostData.author;
+    const datetime = jsonPostData.date + jsonPostData.time;
+    const video = jsonPostData.video;
+    const content = fetchPostContent();
+
+    console.log(title + author + datetime + video);
 }
-loadPage();
