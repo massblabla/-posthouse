@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&family=Noto+Sans+Arabic:wght@100..900&family=Noto+Sans+JP:wght@100..900&family=Noto+Sans+Mono:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #0d0d11;
+    color: lightseagreen;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: 500;
+}
+
+.cool {
+    display: none;
+}
+
+.jpfont {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.arfont {
+    font-family: 'Noto Sans Arabic', sans-serif;
+}
+
+img {
+    border-radius: 4px;
+    margin-left: 5%;
+    margin-top: 2.5%;
+    max-width: 25%;
+    height: auto;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    color: gray;
+}
+.right {
+    margin-right: 5%;
+}
+header nav li {
+    display: inline
+}
+header nav a {
+    font-size: 1.25em; 
+    color: lightseagreen;
+}
+
+main {
+    align-content: center;
+}
+
+.welcome {
+    font-size: 1.25em;
+    display: flex;
+    text-decoration: none;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+}
+
+.contents ul {
+    margin-top: 0.5%;
+    display: flex;
+    font-size: 1.3em;
+}

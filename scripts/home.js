@@ -1,0 +1,60 @@
+/* Number of MOTDs: 48.
+ * Kind of a misnomer, but why not?
+ */
+function loadMotd() {
+    var motdList = [
+        "<span>Should I call this posthouse or a blog?</span>",
+        "<span>Never got to <span class=\"jpfont\"><ruby>𡚴原<rt>あけんばら</rt></ruby></span>, what's in there?</span>",
+        "<span>&lt;span&gt;&lt;span&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;.</span>",
+        "<span>Welcome to the darkest dungeon of <em>massblabla</em>.</span>",
+        "<span>Nmyaachi! Mensooree!</span>",
+        "<span><a href=\"/etc/aoyama.txt\" class=\"motdlinks\">Locations.</a></span>",
+        "<span><a href=\"https://kernal.eu/\" class=\"motdlinks\">Go check Kernal!</a></span>",
+        "<span>Never got to Akenbara, what's in there?</span>",
+        "<span>Ever tried Linux? If not, try it out!</span>",
+        "<span>What's older? Microshaft Winblows or Michaelsoft Binbows?</span>",
+        "<span><span class=\"arfont\">أَشْهَدُ أَنْ لَا إِلَٰهَ إِلَّا ٱللَّٰهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ ٱللَّٰهِ.</span></span>",
+        "<span><a href=\"https://www.youtube.com/watch?v=dQw4w9WgXcQ\" class=\"motdlinks\"><s>  Not the</s> Associated YouTube Video</a>.</span>",
+        "<span><a href=\"https://www.youtube.com/watch?v=nuU2YHtxMik\" class=\"motdlinks\"><s>   Not the</s> Associated YouTube Video</a>.</span>",
+        "<span><a href=\"https://www.youtube.com/watch?v=jgm455M-N3Y\" class=\"motdlinks\"><s>    Not the</s> Associated YouTube Video</a>.</span>",
+        "<span>I have no idea what to put. Sorry.</span>",
+        "<span>See? I put dots in the end of sentences.</span>",
+        "<span>Did you know that you can actually post something here?</span>",
+        "<span><q cite=\"https://parade.com/living/shower-thoughts\">Why aren't iPhone chargers called Apple juice?</q>.</span>",
+        "<span>.</span>",
+        "<span>Welcome!</span>",
+        "<span>Selamat datang!</span>",
+        "<span>What will you choose? <span class=\"jpfont\">いらっしゃい</span> or <span class=\"jpfont\">ようこそ</span>?</span>",
+        "<span>Chauffeur, chauffeur.</span>",
+        "<span>Irasshai!</span>",
+        "<span>Youkoso!</span>",
+        "<span><a href=\"etc/image.txt\" class=\"motdlinks\">Secrets</a>.</span>",
+        "<span>Hey! I have a question. Was the Windows 95 Startup sound copyrighted? If it is I would be sad.</span>",
+        "<span><a href=\"https://reddit.com/r/UsefulCharts\" class=\"motdlinks\">Not my subreddit</a></span>",
+        "<span>I moved e4. What would you move?</span>",
+        "<span><q cite=\"https://parade.com/living/shower-thoughts\">Firefly is the opposite of waterfall.</q>.</span>",
+        "<span>Saya tidak bisa berbahasa Jepang. Maaf.</span>",
+        "<span>You know? I think the Minister of Communications and Informatics of Indonesia should be a young person that knows tech.</span>",
+        "<span>What will you choose? System.out.println() or Console.WriteLine()?</span>",
+        "<span>API NAN TAK KUNJUNG PADAM - Indonesian proverb (The Ever-Burning Fire).</span>",
+        "<span><span class=\"jpfont\"><ruby>松原<rt>まつばら</rt>みき</ruby></span>.</span>",
+        "<span>Again, I have no idea what to put. Sorry.</span>",
+        "<span>If this day is the first of the month, well, that's cool!</span>",
+        "<span>What will you choose? posthouse or blog?</span>",
+        "<span>Did you know that I spend most of my time scrolling YouTube's homepage.</span>",
+        "<span>Did you know that this file isn't sorted? PLEASE DON'T. Please don't?</span>",
+        "<span>Reverse this: rood on akanoyam.</span>",
+        "<span>Hot take: The Earth is a cube (I'm joking).</span>",
+        "<span>Hot take: I love the Java programming language (I'm not joking).</span>",
+        "<span>I have oathed I will not play Minecraft version 1.21 in the month of July.</span>",
+        "<span>Ever tried Biang-biang noodles? I didn't. What's it taste like?</span>",
+        "<span>1+2+3+4+5 is 15? 3+3+4+5 is 15? 6+4+5 is 15? 10+5 is 15? It is 15.</span>",
+        "<span>If you wanted to post something. Add an issue with the label Post.</span>",
+        "<span>If you wanted to add an MOTD. Add an issue with the label MOTD.</span>"
+    ];
+    var motd = motdList[Math.trunc(Math.random() * motdList.length)];
+    var welcomediv = document.querySelector("#motd");
+    welcomediv.innerHTML = motd;
+}
+
+loadMotd();
