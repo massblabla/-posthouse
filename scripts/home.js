@@ -2,7 +2,7 @@
  * Kind of a misnomer, but why not?
  */
 function loadMotd() {
-    var motdList = [
+    const motdList = [
         "<span>Should I call this posthouse or a blog?</span>",
         "<span>Never got to <span class=\"jpfont\"><ruby>𡚴原<rt>あけんばら</rt></ruby></span>, what's in there?</span>",
         "<span>&lt;span&gt;&lt;span&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;.</span>",
@@ -52,8 +52,8 @@ function loadMotd() {
         "<span>If you wanted to post something. Add an issue with the label Post.</span>",
         "<span>If you wanted to add an MOTD. Add an issue with the label MOTD.</span>"
     ];
-    var motd = motdList[Math.trunc(Math.random() * motdList.length)];
-    var welcomediv = document.querySelector("#motd");
+    const motd = motdList[Math.trunc(Math.random() * motdList.length)];
+    const welcomediv = document.querySelector("#motd");
     welcomediv.innerHTML = motd;
 }
 

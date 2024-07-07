@@ -1,0 +1,4 @@
+# gitignore file
+# the etc folder.
+# see the contents in the "excessfiles" branch.
+etc/*

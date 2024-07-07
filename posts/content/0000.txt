@@ -1,0 +1,23 @@
+<h1>This is &lt;h1&gt;</h1>
+<h2>This is &lt;&lt;h2&gt;</h1>
+<h3>This is &lt;h3&gt;</h1>
+<h4>This is &lt;h4&gt;</h1>
+<h5>This is &lt;h5&gt;</h1>
+<h6>This is &lt;h6&gt;</h1>
+<p>This is &lt;p&gt;</p><br>
+<strong>This is &lt;strong&gt;</strong><br>
+<em>This is &lt;em&gt;</em><br>
+<del>This is &lt;del&gt;</del><br>
+<ins>This is &lt;ins&gt;</ins><br>
+<br>
+<p>That ^ is &lt;br&gt;</p>
+<code>This is &lt;code&gt;</code>
+<blockquote>This is &lt;blockquote&gt;</blockquote><br>
+<a href="#">This is &lt;a&gt;</a>
+<img src="images/imageexample.png" alt="This is &lt;img&gt;">
+<ol>
+    <li>This is &lt;ol&gt;&lt;li&gt;&lt;/li&gt;&lt;/ol&gt;</li>
+</ol>
+<ul>
+    <li>This is &lt;ul&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul&gt;</li>
+</ul>
