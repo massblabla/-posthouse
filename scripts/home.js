@@ -1,4 +1,4 @@
-/* Number of MOTDs: 48.
+/* Number of MOTDs: 50.
  * Kind of a misnomer, but why not?
  */
 function loadMotd() {
@@ -30,7 +30,7 @@ function loadMotd() {
         "<span>Youkoso!</span>",
         "<span><a href=\"etc/image.txt\" class=\"motdlinks\">Secrets</a>.</span>",
         "<span>Hey! I have a question. Was the Windows 95 Startup sound copyrighted? If it is I would be sad.</span>",
-        "<span><a href=\"https://reddit.com/r/UsefulCharts\" class=\"motdlinks\">Not my subreddit</a></span>",
+        "<span><a href=\"https://reddit.com/r/UsefulCharts\" class=\"motdlinks\">Not my subreddit</a>.</span>",
         "<span>I moved e4. What would you move?</span>",
         "<span><q cite=\"https://parade.com/living/shower-thoughts\">Firefly is the opposite of waterfall.</q>.</span>",
         "<span>Saya tidak bisa berbahasa Jepang. Maaf.</span>",
@@ -49,6 +49,8 @@ function loadMotd() {
         "<span>I have oathed I will not play Minecraft version 1.21 in the month of July.</span>",
         "<span>Ever tried Biang-biang noodles? I didn't. What's it taste like?</span>",
         "<span>1+2+3+4+5 is 15? 3+3+4+5 is 15? 6+4+5 is 15? 10+5 is 15? It is 15.</span>",
+        "<span><span class=\"emoji\">🇵🇸</span>.</span>",
+        "<span>Did you know how huge is the set on The Truman Show? I didn't.",
         "<span>If you wanted to post something. Add an issue with the label Post.</span>",
         "<span>If you wanted to add an MOTD. Add an issue with the label MOTD.</span>"
     ];
