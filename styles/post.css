@@ -2,6 +2,14 @@ main {
     padding: 8pt;
 }
 
+main img {
+    max-height: 256px;
+    border-radius: 4px;
+    border: 2px solid lightseagreen;
+    float: left;
+    
+}
+
 .title {
     font-weight: 700;
 }
@@ -11,7 +19,7 @@ main {
 }
 
 .content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
-    font-weight: 500;
+    font-weight: 600;
 }
 
 code {

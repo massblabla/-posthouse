@@ -15,7 +15,7 @@ Literally all the files, but, I use this.
 To add posts and MOTDs, go to the Issues tab. You will see everything you need.
 
 ## License?
-posthouse by massblabla is marked with CC0 1.0 Universal.
+posthouse by massblabla is licensed with [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1).
   
   
 ###### i'm lazy

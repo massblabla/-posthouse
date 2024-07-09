@@ -13,6 +13,14 @@
 body {
     font-family: 'Noto Sans Mono', monospace;
     font-weight: 500;
+    min-width: 100px;
+    max-width: 900px;
+    align-self: center;
+    margin: auto;
+}
+
+hr {
+    border: 1px solid lightseagreen;
 }
 
 .cool {
@@ -29,12 +37,13 @@ body {
     font-family: 'Noto Color Emoji', sans-serif;
 }
 
-img {
+header img {
     border-radius: 4px;
     margin-left: 5%;
     margin-top: 2.5%;
     max-width: 25%;
     height: auto;
+    border: 1px solid lightseagreen;
 }
 
 header {
@@ -43,14 +52,20 @@ header {
     color: gray;
 }
 .right {
-    margin-right: 5%;
+    margin-right: 0.5%;
+    text-align: right;
 }
 header nav li {
-    display: inline
+    display: inline;
+    text-decoration: none;
 }
 header nav a {
     font-size: 1.25em; 
     color: lightseagreen;
+    text-decoration: none;
+}
+header nav abbr {
+    text-decoration: none;
 }
 
 main {
@@ -63,10 +78,35 @@ main {
     text-decoration: none;
     margin-top: 0.5%;
     margin-bottom: 0.5%;
+    text-align: center;
 }
 
 .contents ul {
     margin-top: 0.5%;
-    display: flex;
+    display: grid;
     font-size: 1.3em;
+    padding: 0;
+}
+.contents li {
+    list-style-type: none;
+    border-top: 2px dashed lightseagreen;
+    margin-bottom: 0.75%;
+}
+.contents li a, .contents li span {
+    text-decoration: none;
+}
+.contents li .data {
+    text-decoration: none;
+    float: right
+}
+.contents li .title {
+    text-align: left;
+    text-decoration: none;
+    font-weight: 700;
+    padding-right: 2em;
+}
+footer {
+    text-align: center;
+    margin-top: 0.75%;
+    margin-bottom: 0.75%;
 }
