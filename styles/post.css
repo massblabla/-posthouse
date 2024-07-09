@@ -2,11 +2,23 @@ main {
     padding: 8pt;
 }
 
-main img {
+
+figure {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+    border: 2px solid lightseagreen;
+    border-radius: 4px;
+}
+figure img {
     max-height: 256px;
     border-radius: 4px;
     border: 2px solid lightseagreen;
     margin-top: 10px;
+}
+figure figcaption {
+    border-top: 2px solid lightseagreen;
     margin-bottom: 10px;
 }
 

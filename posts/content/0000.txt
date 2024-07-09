@@ -11,7 +11,9 @@
 <ins>This is &lt;ins&gt;</ins><br>
 <br>
 <p>That ^ is &lt;br&gt;</p>
-<code>This is &lt;code&gt;</code>
+<pre>
+    <code>This is &lt;code&gt;</code>
+</pre>
 <blockquote>This is &lt;blockquote&gt;</blockquote><br>
 <a href="#">This is &lt;a&gt;</a>
 <figure>
