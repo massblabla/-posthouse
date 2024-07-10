@@ -14,7 +14,7 @@
 <pre>
     <code>This is &lt;code&gt;</code>
 </pre>
-<blockquote>This is &lt;blockquote&gt;</blockquote><br>
+<blockquote>This is &lt;blockquote&gt;</blockquote>
 <a href="#">This is &lt;a&gt;</a>
 <figure>
     <img src="images/imageexample.png" alt="This is &lt;img&gt; inside a &lt;figure&gt;">

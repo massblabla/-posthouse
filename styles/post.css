@@ -34,11 +34,12 @@ figure figcaption {
     font-weight: 600;
 }
 
-code {
+pre code {
     border: solid 2px white;
     background-color: black;
     color: white;
     border-radius: 2px;
     font-size: 1.1em;
     font-weight: 600;
+    width: 100%;
 }
