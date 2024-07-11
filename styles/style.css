@@ -13,7 +13,7 @@
 body {
     font-family: 'Noto Sans Mono', monospace;
     font-weight: 500;
-    min-width: 100px;
+    min-width: 200px;
     max-width: 900px;
     align-self: center;
     margin: auto;
@@ -41,7 +41,7 @@ header img {
     border-radius: 4px;
     margin-left: 5%;
     margin-top: 2.5%;
-    max-width: 25%;
+    max-width: 30%;
     height: auto;
     border: 1px solid lightseagreen;
 }
@@ -104,6 +104,10 @@ main {
     text-decoration: none;
     font-weight: 700;
     padding-right: 2em;
+}
+.contents li .issue {
+    font-size: 10pt;
+    opacity: 50%;
 }
 footer {
     text-align: center;

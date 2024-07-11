@@ -1,8 +1,3 @@
-main {
-    padding: 8pt;
-}
-
-
 figure {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -26,6 +21,10 @@ figure figcaption {
     font-weight: 700;
 }
 
+.content {
+    padding: 8pt;
+}
+
 .titleborder {
     border: solid 2px lightseagreen;
 }
@@ -42,4 +41,12 @@ pre code {
     font-size: 1.1em;
     font-weight: 600;
     width: 100%;
+}
+
+ul, ol {
+    padding-left: 3em;
+}
+
+ul li::marker {
+    content: '〄. ';
 }
