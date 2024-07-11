@@ -50,7 +50,23 @@ function loadMotd() {
         "<span><span class=\"emoji\">🇵🇸</span>.</span>",
         "<span>Did you know how huge is the set on The Truman Show? I didn't.",
         "<span>If you wanted to post something. Add an issue with the label Post.</span>",
-        "<span>If you wanted to add an MOTD. Add an issue with the label MOTD.</span>"
+        "<span>If you wanted to add an MOTD. Add an issue with the label MOTD.</span>",
+        "<span>Don't trust that MOTD \"There is stuff at the \"excessstuff\" branch.\". It doesn't even exist!",
+        "<span>I think using \"archinstall\" is blasphemy.",
+        "<span>&Topf;&hopf;&iopf;&sopf;&nbsp;&iopf;&sopf;&nbsp;&copf;&oopf;&oopf;&lopf;.,</span>",
+        "<span>I use Microsoft Edge btw.</span>",
+        "<span><em>missingno</em>.</span>",
+        "<span>&Mopf;&aopf;&topf;&sopf;&uopf;&bopf;&aopf;&ropf;&aopf;.</span>",
+        "<span><del>I... hereby declare the Nonsensitate of Nonsensia on behalf of the people of Thorodon, Hairvainth, Xortho, Vallatuschun, and Ilothwii. The people had been fighting against the colonizers and with many deaths, came Nonsensitate of Nonsensia. Independent! Independent! Independent!</del></span>",
+        "<span><span class=\"arfont\">يَـٰٓأَيُّهَا ٱلنَّبِىُّ لِمَ تُحَرِّمُ مَآ أَحَلَّ ٱللَّهُ لَكَ ۖ تَبْتَغِى مَرْضَاتَ أَزْوَٰجِكَ ۚ وَٱللَّهُ غَفُورٌۭ رَّحِيمٌۭ</span> (66:1).</span>",
+        "<span><span class=\"arfont\">وَمِن شَرِّ ٱلنَّفَّـٰثَـٰتِ فِى ٱلْعُقَدِ</span> (113:1).</span>",
+        "<span>No.</span>",
+        "<span><a href=\"https://maps.app.goo.gl/mQprXoE8C7BSQzw58\" class=\"motdlinks\">Songyuan, Jilin, China</a>.</span>",
+        "<span><a href=\"https://maps.app.goo.gl/DD5SrrgoyXJ8ZzFE6\" class=\"motdlinks\">Matsubara, Osaka, Japan</a>.</span>",
+        "<span>THEY WERE SWITCHED!!</span>",
+        "<span><a href=\"https://maps.app.goo.gl/1axYtpoygwfeRzcd6\" class=\"motdlinks\">Wakkanai, Hokkaido, Japan</a>.</span>",
+        "<span>&lt;&excl;DOCTYPE html&gt;</span>",
+        "<span>What will you choose? Beit ha-Mikdash or Bayt al-Maqdis?</span>"
     ];
     const motd = motdList[Math.trunc(Math.random() * motdList.length)];
     const welcomediv = document.querySelector("#motd");
