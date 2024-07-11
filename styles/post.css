@@ -1,3 +1,32 @@
+.header {
+    margin: 1%;
+}
+.header hr {
+    border: 1px dashed lightseagreen;
+}
+.title {
+    font-size: 3em;
+}
+.title .issue {
+    font-size: 20pt;
+    opacity: 50%;
+    text-decoration: none;
+}
+.sub {
+    display: flex;
+    font-size: 1.5em
+}
+.second {
+    display: inline-flex;
+    margin-right: 10.75%;
+}
+.video {
+    margin-left: 10.75%;
+}
+.video a {
+    text-decoration: none;
+}
+
 figure {
     margin-top: 10px;
     margin-bottom: 10px;

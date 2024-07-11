@@ -18,11 +18,12 @@
 <a href="#">This is &lt;a&gt;</a>
 <figure>
     <img src="images/imageexample.png" alt="This is &lt;img&gt; inside a &lt;figure&gt;">
-    <figcaption>This is &lt;figcaption&gt;</figcaption>
+    <figcaption>This is &lt;figcaption&gt; inside a &lt;figure&gt;</figcaption>
 </figure>
 <ol>
-    <li>This is &lt;ol&gt;&lt;li&gt;&lt;/li&gt;&lt;/ol&gt;</li>
+    <li>This is &lt;ol&gt;&lt;li&gt;</li>
 </ol>
 <ul>
-    <li>This is &lt;ul&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul&gt;</li>
+    <li>This is &lt;ul&gt;&lt;li&gt;</li>
 </ul>
+<p>That > is <ruby>日<rt>に</rt>本<rt>ほん</rt></ruby> &lt;ruby&gt; and &lt;rt&gt; (Japanese)</p>

@@ -17,7 +17,8 @@ async function loadPage() {
     const contentdiv = document.querySelector("#content");
     const titlediv = document.querySelector("#title");
     const authordiv = document.querySelector("#author");
-    const datetimediv = document.querySelector("#video");
+    const datetimediv = document.querySelector("#datetime");
+    const videodiv = document.querySelector("#video");
 
     const openSpan = "<span>";
     const closeSpan = "</span>";
@@ -30,14 +31,19 @@ async function loadPage() {
     let time_ = json.time;
     let video_ = json.video;
 
+    let issue = "<a class=\"issue\" href=\"https://github.com/massblabla/posthouse/issue/" + getQuery() + "\">#" + getQuery() + "</a>";  
+
     let datetime_ = date_ + " " + time_ + " UTC";
 
-    let title = openSpan + title_ + closeSpan;
+    let title = openSpan + title_ + issue + closeSpan;
     let author = openSpan + author_ + closeSpan;
     let datetime = openSpan + datetime_ + closeSpan;
-    let video = "<video "
+    let video = "<a href=\"" + video_ + "\">Related video</a>";
 
     titlediv.innerHTML = title;
+    authordiv.innerHTML = author;
+    datetimediv.innerHTML = datetime;
+    videodiv.innerHTML = video;
 
     /* Content Section */
     let content_ = await (textFetch(url + "content/" + getQuery() + ".txt"));
