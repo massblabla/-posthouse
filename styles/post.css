@@ -5,7 +5,7 @@
     border: 1px dashed lightseagreen;
 }
 .title {
-    font-size: 3em;
+    font-size: 24pt;
 }
 .title .issue {
     font-size: 20pt;
@@ -18,10 +18,10 @@
 }
 .second {
     display: inline-flex;
-    margin-right: 10.75%;
+    margin-right: 8%;
 }
 .video {
-    margin-left: 10.75%;
+    margin-left: 8%;
 }
 .video a {
     text-decoration: none;
