@@ -31,7 +31,7 @@ async function loadPage() {
     let time_ = json.time;
     let video_ = json.video;
 
-    let issue = "<a class=\"issue\" href=\"https://github.com/massblabla/posthouse/issue/" + getQuery() + "\">#" + getQuery() + "</a>";  
+    let issue = "<a class=\"issue\" href=\"https://github.com/massblabla/posthouse/issues/" + getQuery() + "\">#" + getQuery() + "</a>";  
 
     let datetime_ = date_ + " " + time_ + " UTC";
 
