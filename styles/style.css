@@ -84,7 +84,7 @@ main {
 .contents ul {
     margin-top: 0.5%;
     display: grid;
-    font-size: 1.3em;
+    font-size: 1em;
     padding: 0;
 }
 .contents li {
