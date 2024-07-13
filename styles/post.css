@@ -13,12 +13,11 @@
     text-decoration: none;
 }
 .sub {
-    display: flex;
+    display: block;
     font-size: 1.5em
 }
 .second {
     display: inline-flex;
-    float: left;
 }
 .video {
     float: right;
