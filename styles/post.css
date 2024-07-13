@@ -18,10 +18,10 @@
 }
 .second {
     display: inline-flex;
-    margin-right: 8%;
+    float: left;
 }
 .video {
-    margin-left: 8%;
+    float: right;
 }
 .video a {
     text-decoration: none;

@@ -1,5 +1,7 @@
 /* Number of MOTDs: 48.
  * Kind of a misnomer, but why not?
+ * The MOTDs listed are licensed under CC-BY-SA 4.0 International, otherwise noted.
+ * But any other code, is waived copyright and released into the public domain.
  */
 function loadMotd() {
     const motdList = [
