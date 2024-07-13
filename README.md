@@ -9,11 +9,11 @@ Just fork it, modify something, which is:
 * *.js
 * posts/*
 Want to change the theme, go to styles/*.css  
-Literally all the files, but, I use this.
+Literally all the files.
 
 ## Contribute?
 To add posts and MOTDs, go to the Issues tab. You will see everything you need.  
-To change something in the code, well, I don't think I will write down how to do that, but you need to waive your copyright so everyone can use this **without attribution** to you or even **myself**. Except of course the content.
+To change something in the code, well, I don't think I will write down how to do that, but you will have to waive your copyright to the code so everyone can use this **without attribution** to you or even **myself**. Except of course the content.
 
 ## License?
 Any content in posthouse © 2024 is licensed with [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1) otherwise noted.  
